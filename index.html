@@ -31,9 +31,9 @@
         background-image: url(img/nzh3.jpg);
         background-size: cover;
         background-position: center;
-        height: 75vh;
+        height: 81.5vh;
         /* filter: grayscale(100%); */
-        filter: brightness(0.6);
+        /* filter: brightness(0.8); */
       }
 
       .half-black {
@@ -43,7 +43,7 @@
   </head>
   <body>
     <!-- topsection-header -->
-    <section class="bg-primary d-none d-md-block">
+    <section class="bg-primary d-none d-lg-block">
       <div class="container-xl">
         <!-- row-1 -->
         <div class="row justify-content-between text-light">
@@ -132,19 +132,23 @@
           top-50
           start-50
           translate-middle
-          text-white text-center
+          text-white
+          d-flex
+          flex-row
+          justify-content-md-start justify-content-center
+          container-xl
         "
       >
-        <button
-          type="button"
-          class="btn mx-2 btn-lg rounded-pill btn-primary mb-md-0 mb-4"
-        >
+        <!-- showcase buttons -->
+        <button type="button" class="btn mx-2 btn-lg rounded-pill btn-primary">
           Support Us
         </button>
         <button type="button" class="btn mx-2 btn-lg rounded-pill btn-primary">
           Volunteer
         </button>
       </div>
+
+      <!-- showcase text -->
       <div
         class="
           half-black
@@ -157,7 +161,7 @@
           container-fluid
         "
       >
-        <h3 class="fw-light container-xl">
+        <h3 class="fw-light container-xl text-md-start text-center">
           We need your support to educate, feed and accomodate!
         </h3>
       </div>
