@@ -6,7 +6,7 @@ A landing page for a nonprofit organisation that I used to be involved with.
 
 ## Screenshot
 
-[![A zongoGH website](imgs/zongo.PNG "A zongoGH website")]()
+[![A zongoGH website](img/zongo.PNG "A zongoGH website")]()
 
 ## URL
 
